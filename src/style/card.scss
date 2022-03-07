@@ -1,0 +1,42 @@
+.card-large {
+    transition: 0.3s;
+    border-radius: 40px;
+    &:hover {
+        box-shadow: 0 0 30px rgba(4, 4, 16, 0.185);
+    }
+}
+.card-medium {
+    border-radius: 40px;
+    transition: 0.3s;
+    .card-image {
+        height: 180px;
+        max-width: 100%;
+        border-radius: 40px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: inherit;
+        }
+    }
+    &:hover{
+        box-shadow: 0 0 30px rgba(4, 4, 16, 0.185);
+
+        
+    }
+}
+
+.card-small{
+    border-radius: 40px;
+    transition: 0.3s;
+    width: fit-content;
+    &:hover{
+        box-shadow: 0 0 30px rgba(4, 4, 16, 0.185);
+
+        
+    }
+
+
+
+}

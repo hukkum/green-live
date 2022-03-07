@@ -1,0 +1,18 @@
+.no-style-button {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+}
+.signup-button {
+    background-color: #498454;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: normal;
+    border-radius: 30em;
+    line-height: 160%;
+    transition: 0.3s;
+}
+.signup-button:hover {
+    background-color: #559461;
+}
